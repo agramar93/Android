@@ -1,0 +1,23 @@
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+
+public class LLex {
+
+	public static void main(String[] args) {
+		List<Integer> C = new LinkedList<Integer>();
+		List<Integer> A = new LinkedList<Integer>(Arrays.asList(1,2,3));
+		List<Integer> B = new LinkedList<Integer>(Arrays.asList(5,6));
+		
+		for(int i = 0; i<A.size(); i++){
+			C.add(A.get(i) + B.get(i));
+		}
+
+		for(int i = 0; i<C.size(); i++){
+			System.out.println(C.get(i));
+		}
+
+	}
+
+}

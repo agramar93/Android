@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">World War X</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Button1Name">Civil War: \n South Carolina vs Virginia</string>
+    <string name="playerb">Player B</string>
+    <string name="playera">Player A</string>
+    <string name="infoButton">How To Play</string>
+    <string name="Done">Done</string>
+    <string name="HelpInfoStart">Start Screen: Enter the number of battle locations you woud like to place on each side (5 to 10). \nThen click the war you\'d like to play (Civil War or World War 2)</string>
+    <string name="WW2Button">World War 2: China vs Africa</string>
+    <string name="HelpInfoGame">Game Play: Touch a location on the map where you think a battle may have occurred.  If you\'re correct, a location will appear.  If you are incorrect, the turn will switch to the other player.</string>
+    <string name="HelpInfoGoodLuck">Happy destroying, and Good Luck!</string>
+    <string name="HelpInfoWin">How to Win: Victory is achieved by destroying all the locations of your opponent, or if they surender.</string>
+    <string name="clickToStart">Click to Start</string>
+    <string name="LearnMore">Play And Learn: You can click on the infowindow of the locations that have been found to learn more about the battle that happened at those loctions.</string>
+    <string name="WorldWar">World War</string>
+
+</resources>

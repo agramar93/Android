@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:orientation ="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent"
+	
+	>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/compass"
+        android:layout_centerInParent = "true"
+        />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height ="wrap_content"
+        android:src ="@drawable/compass_nadel"
+        android:layout_centerInParent = "true"
+        android:id="@+id/main_iv_compass"
+        />
+     <TextView
+        android:id="@+id/acceleration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: Y: Z: " />
+
+</RelativeLayout>
